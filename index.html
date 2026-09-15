@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cefa Coffee - Renew Your Mind and Soul</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Cefa Coffee</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Renew Your Mind and Soul</h1>
+                <p>One sip at a time with our organic, wellness-infused coffee beans</p>
+                <a href="#order" class="btn-primary">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu">
+            <h2>Our Coffee Selection</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="assets/images/menu-espresso.jpg" alt="Espresso Shot" loading="lazy">
+                    <h3>Espresso</h3>
+                    <p class="description">Rich, bold single-origin espresso beans</p>
+                    <p class="price">$12.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="assets/images/menu-latte.jpg" alt="Latte Art" loading="lazy">
+                    <h3>Latte Blend</h3>
+                    <p class="description">Smooth and creamy perfect for lattes</p>
+                    <p class="price">$14.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="assets/images/menu-cappuccino.jpg" alt="Cappuccino" loading="lazy">
+                    <h3>Cappuccino Mix</h3>
+                    <p class="description">Balanced flavor with velvety foam</p>
+                    <p class="price">$13.99</p>
+                </div>
+                <div class="menu-item">
+                    <img src="assets/images/menu-mocha.jpg" alt="Mocha" loading="lazy">
+                    <h3>Mocha Delight</h3>
+                    <p class="description">Chocolate-infused for sweet indulgence</p>
+                    <p class="price">$15.99</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Our Beans Section -->
+        <section id="about" class="about">
+            <h2>About Our Beans</h2>
+            <div class="about-grid">
+                <div class="about-item">
+                    <img src="assets/images/about-lavender.jpg" alt="Lavender Infused Beans" loading="lazy">
+                    <h3>Lavender Infusion</h3>
+                    <p>Organic beans infused with calming lavender notes for a relaxing coffee experience that reduces stress and promotes tranquility.</p>
+                </div>
+                <div class="about-item">
+                    <img src="assets/images/about-cinnamon.jpg" alt="Cinnamon Infused Beans" loading="lazy">
+                    <h3>Cinnamon Spice</h3>
+                    <p>Warm cinnamon-infused beans that awaken the senses with comforting spice notes and natural anti-inflammatory properties.</p>
+                </div>
+                <div class="about-item">
+                    <img src="assets/images/about-chocolate.jpg" alt="Chocolate Infused Beans" loading="lazy">
+                    <h3>Chocolate Bliss</h3>
+                    <p>Decadent chocolate-infused organic beans that satisfy sweet cravings while providing natural energy and antioxidants.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <img src="assets/images/testimonial-1.jpg" alt="Customer 1" loading="lazy">
+                    <p>"Cefa coffee has transformed my morning routine. The lavender infusion helps me start my day calm and focused."</p>
+                    <h4>- Sarah K.</h4>
+                </div>
+                <div class="testimonial-item">
+                    <img src="assets/images/testimonial-2.jpg" alt="Customer 2" loading="lazy">
+                    <p>"As someone with sensitive digestion, the cinnamon blend is perfect - warm, comforting, and easy on my stomach."</p>
+                    <h4>- Michael T.</h4>
+                </div>
+                <div class="testimonial-item">
+                    <img src="assets/images/testimonial-3.jpg" alt="Customer 3" loading="lazy">
+                    <p>"The chocolate blend is my guilty pleasure that actually feels good - rich flavor without the crash."</p>
+                    <h4>- Jennifer L.</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order/Contact Section -->
+        <section id="order" class="order">
+            <h2>Order Now or Get in Touch</h2>
+            <div class="order-content">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone (Optional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="How can we help you?" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn-secondary">Send Message</button>
+                </form>
+                <div class="order-cta">
+                    <h3>Ready to Taste the Difference?</h3>
+                    <p>Our organic, wellness-infused coffee beans are available for purchase.</p>
+                    <a href="#" class="btn-primary">Shop Our Collection</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Cefa Coffee. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
